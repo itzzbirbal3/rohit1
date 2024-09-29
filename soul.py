@@ -138,7 +138,7 @@ def restart(update: Update, context: CallbackContext) -> None:
 
 def main():
 
-    updater = Updater("7891311987:AAHhHPt8iebH2VnDm3tZfVA2yKqscjwZtVk", use_context=True)
+    updater = Updater("7608735894:AAGmutlWmxvQomULCZdcYbd27yheDZ13Q3Y", use_context=True)
     dispatcher = updater.dispatcher
 
     dispatcher.add_handler(CommandHandler("start", start))
